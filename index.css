@@ -1,0 +1,150 @@
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+    background:
+        linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,21,1) 20%, rgba(56,89,93,1) 55%, rgba(0,212,255,1) 100%);
+    padding-top: 60px;
+    }
+#navbar{
+    position: fixed;
+    background-color: #55060e;
+    border-radius: 5px;
+    top: 5px;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    padding-left: 70%;
+}
+
+.nav-link{
+    color: white;
+    padding: 1px 30px 1px 30px;
+    text-decoration: none;
+}
+#welcome-section{
+    display: flex;
+    height: 100vh;
+    color: thistle;
+}
+.titulo{
+    padding-left: 20px;
+    padding-top: 90px;
+    font-size: 5.5rem;
+    margin-bottom: 0px;
+}
+.subtitulo{
+    margin-top: 300px;
+    padding-left: 0px;
+    font-weight: lighter;
+    color: rgb(3, 2, 20);
+    font-size: xx-large;
+}
+#projects{
+    background-color: #000e0f;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 30px;
+    width: 100%;
+    
+}
+.titulo2{
+    font-size: 2rem;
+    color: rgb(219, 185, 219);
+}
+
+.imagen{
+    width: 50%;
+    height: 50%;
+}
+.link{
+    background: gray;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    padding-bottom: 20px;
+}
+#contact{
+    text-align: center;
+    height: 90vh;
+}
+.contactame{
+    font-weight: lighter;
+    color: rgb(3, 2, 20);
+    font-size: xx-large;
+    margin-top: 20px;
+}
+#profile-link{
+    display: block;
+    margin-bottom: 20px;
+    font-family: 'Comic Neue', cursive;
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+}
+.logos{
+    width: 2%;
+    height: 2%;
+   
+}
+#project-tile{
+    padding: 0px 60px 70px 60px;
+}
+.table{
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.imagen1{
+   width: 73%;
+   height: 73%; 
+}
+.texto1{
+    padding: 15px 120px 15px 120px;
+}
+.imagen2{
+    width: 64%;
+    height: 64%;
+}
+.texto2{
+    padding: 15px 138px 15px 138px;
+}
+.imagen3{
+    width: 73%;
+    height: 73%;
+}
+.texto3{
+    padding: 15px 128px 15px 128px;
+}
+.imagen4{
+    width: 66%;
+    height: 69%;
+}
+.texto4{
+    padding: 15px 112px 15px 112px;
+}
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+figcaption{
+    background-color: rgba(18, 45, 88, 0.74);
+}
+@media screen and (max-width:700px){
+    #navbar{
+        flex-direction: column;
+        margin: auto;
+        padding: 0px;
+        text-align: left;
+    }
+    .nav-link{
+        display: block;
+    }
+    #project-tile{
+        display: flex;
+    }
+    tr{
+        flex-direction: column;
+        display: flex;
+    }
+}
